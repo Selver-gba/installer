@@ -202,7 +202,7 @@
   chomp($env);
   if($env ne "$dir")
   {
-    printf("Please set DEVKITPRO in your environment as $dir\n");
+    printf("Please set DEVKITPRO in your environment as $dir (was $env)\n");
   }
   else
   {
